@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>期中報告</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bytesized&family=Faustina:ital,wght@0,300..800;1,300..800&family=LXGW+WenKai+TC&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 style="font-size: 30px" id="top">MyWebsite 個人網站</h1>
+    </header>
+    <nav class="navbar">
+      <a href="#me">關於我</a>
+      <a href="#skill">我的技能</a>
+      <a href="#experience">個人經歷</a>
+      <a href="#interest">興趣</a>
+      <a href="#contact">聯絡資訊</a>
+    </nav>
+    <main>
+      <article>
+        <section class="block" id="me">
+          <div class="left1">
+            <img src="image/profile-picture.jpg" class="profile-pic" />
+            <h3>謝佳璇</h3>
+          </div>
+          <div class="right1">
+            <p style="text-align: center; font-size: 28px; font-weight: bold">
+              我的基本資料
+            </p>
+            <hr class="divider" />
+            <div class="intro">
+              住址:新北市板橋區<br />
+              生日:2023/7/28(獅子座)<br />
+              畢業學校:中原大學應用數學系<br />
+              興趣:睡覺、追劇(懸疑、醫療、推理)、拼拼圖/樂高<br />
+              Sometimes good things fall apart so better things can fall
+              together.--Marilyn Monroe
+            </div>
+          </div>
+        </section>
+        <section class="block" id="skill">
+          <p class="subtitle">我的技能</p>
+          <div class="container">
+            <!-- 左邊: 程式能力與圓形進度條 -->
+            <div class="left2">
+              <div class="sub-title">程式能力</div>
+              <div class="circle-grid">
+                <div class="circle-wrap" data-percent="70">
+                  <svg class="progress-ring" width="120" height="120">
+                    <circle
+                      class="progress-ring-bg"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                    <circle
+                      class="progress-ring-circle"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                  </svg>
+                  <div class="percent-text">70%</div>
+                  <div class="skill-name">Java</div>
+                </div>
+
+                <div class="circle-wrap" data-percent="75">
+                  <svg class="progress-ring" width="120" height="120">
+                    <circle
+                      class="progress-ring-bg"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                    <circle
+                      class="progress-ring-circle"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                  </svg>
+                  <div class="percent-text">75%</div>
+                  <div class="skill-name">HTML/CSS</div>
+                </div>
+
+                <div class="circle-wrap" data-percent="50">
+                  <svg class="progress-ring" width="120" height="120">
+                    <circle
+                      class="progress-ring-bg"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                    <circle
+                      class="progress-ring-circle"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                  </svg>
+                  <div class="percent-text">50%</div>
+                  <div class="skill-name">Javascript</div>
+                </div>
+
+                <div class="circle-wrap" data-percent="80">
+                  <svg class="progress-ring" width="120" height="120">
+                    <circle
+                      class="progress-ring-bg"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                    <circle
+                      class="progress-ring-circle"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                  </svg>
+                  <div class="percent-text">80%</div>
+                  <div class="skill-name">C</div>
+                </div>
+
+                <div class="circle-wrap" data-percent="60">
+                  <svg class="progress-ring" width="120" height="120">
+                    <circle
+                      class="progress-ring-bg"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                    <circle
+                      class="progress-ring-circle"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                  </svg>
+                  <div class="percent-text">60%</div>
+                  <div class="skill-name">R</div>
+                </div>
+
+                <div class="circle-wrap" data-percent="70">
+                  <svg class="progress-ring" width="120" height="120">
+                    <circle
+                      class="progress-ring-bg"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                    <circle
+                      class="progress-ring-circle"
+                      r="50"
+                      cx="60"
+                      cy="60"
+                    ></circle>
+                  </svg>
+                  <div class="percent-text">70%</div>
+                  <div class="skill-name">MySQL</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 右邊: 直線進度條 -->
+            <div class="right2">
+              <div class="sub-title">其他能力</div>
+
+              <div class="progress-wrapper">
+                <div class="progress-label">
+                  <span>Word/PPT</span>
+                  <span class="progress-percent">80%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" style="width: 80%"></div>
+                </div>
+              </div>
+
+              <div class="progress-wrapper">
+                <div class="progress-label">
+                  <span>UiPath</span>
+                  <span class="progress-percent">30%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" style="width: 30%"></div>
+                </div>
+              </div>
+
+              <div class="progress-wrapper">
+                <div class="progress-label">
+                  <span>影片剪輯</span>
+                  <span class="progress-percent">60%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="block" id="experience">
+          <p class="subtitle">個人經歷</p>
+          <p class="subtitle-2">一.課程專案</p>
+            <div class="container">
+              <div class="left3">
+                    當時上選修課Python/R大數據資料分析，其實一開始是想學Python才選的這門課，但是課程上目標是教導R語言，
+                    課程上主要是要使用老師教導的方法去套用在每組不同的分析資料上，得到每一組的每周分析報告，在隔一周剛上課時每組會上台報告上禮拜得到的分析結果，這堂課讓我更喜歡統計一點，因為平常上統計學或是機率論都是
+                    理論居多，這堂課讓我可以更直觀的看到機率論、統計學的應用。輸入程式碼可以得到:平均數、標準差、信賴區間、判斷是否為常態分配，有沒有異常數值(outliers)，甚至還可以畫出柱狀圖、分位圖、QQplot的點狀圖跟箱型圖等等，可以活用各種分析理論。<br><a href="files/R_final.pdf" target="_blank">點我看最終報告</a>
+              </div>
+              <div class="right3">
+                  <button class="carousel-btn2" id="prevBtn">←</button>
+                  <img id="carouselImage" class="profile-pic" src="image/teacher2.jpg" alt="teaching" />
+                  <button class="carousel-btn2" id="nextBtn">→</button>    
+              </div>
+              <div class="left4">
+                  <img class="profile-pic" src="image/kkday.png" alt="reporting" />
+                  
+              </div>
+              <div class="right4">
+                  修習財務管理這門課，瞭解了投資策略、風險和報酬是呈正比的、股利政策等等。其中有一個小組報告是要分析投資兩間公司之間的差異，我們從多個面向進行比較，像是投資目標、風險承受能力等等，評估哪個公司更適合長期投資、
+                  哪個更適合短期投資，並分析投資者是傾向於追求快速的金錢報酬，還是更重視創造長遠的價值，讓我更了解財務型投資跟策略型投資的差異。
+                  <br><a href="files/companyfinancial.pdf" target="_blank">點我看最終報告</a>
+              </div>
+              <div class="left5">
+                  修習物件導向程式設計的時候，學習的主要內容是Java從基礎開始學習，並應用在最終報告內。所以跟朋友製作了一份使用物件導向觀念的報告，主要
+                  功能是可以管理電影名單，一筆資料包括電影名稱、導演、上映日期、演員人數跟演員，輸入這些必填資料就可以新增一部電影，也可以依據電影名稱刪除該電影，還可以依據電影名稱或是導演名稱搜索該電影，程式裡面有用到繼承、封裝、多型、關聯性與組合還有模組化等等的物件導向觀念。
+                  <br><a href="files/Object-Oriented-Final.pdf" target="_blank">點我看最終報告</a>
+              </div>
+              <div class="right5">
+                  <img class="profile-pic" src="image/Object-Oriented.png" alt="reporting2" />
+              </div>
+              <div class="left6" >
+                  <img class="profile-pic" src="image/healthy.png" alt="reporting3" />
+                  
+              </div>
+              <div class="right6">
+                  修習數據科學理論與方法的時候，學習的主要目標是從現有的資料中去看出某些關聯或是現象，
+                  像是買了A本書的人可能會更有意願再買B物品。先知曉目標才能知道要收集哪種資料進行哪種分析，找出其中有意義的資訊並進行資料前處理，
+                  找出會用到的部份且刪除無法使用的資料，還需針對要使用的資料去定義，經過分析後得出一份結論報告。我們的報告主要是針對身體健康會被何種因素影響，
+                  並運用了entropy、不同健康狀況在各欄位中的百分比和odd ratio等方法進行了詳細分析。通過這些方法能夠知道不同因素對健康狀況的影響程度和相互關聯性。
+                  <br>PDF:<a href="files/Data-Science-FinalPPT.pdf" target="_blank"> 點我看最終PPT報告</a>&nbsp;&nbsp;書面報告:<a href="files/Data-Science-Final-Written-Report.pdf" target="_blank">點我看最終書面報告</a>
+              </div>
+              <div class="left7">
+                  資料庫系統這門課，主要是在學習MySQL跟一點Python，在期末的時候使用Python連接MySQL，建立一個訂單管理的資料庫，用於管理產品、
+                  客戶、訂單、產品評價和客戶反饋。此系統主要是提供方便的商品管理和訂單處理功能，並還有多種數據查詢和報告功能，在報告中還使用Relational Model刻劃出了每個表格之間的關係。
+                  <br>PDF:<a href="files/Database-Final-ReportPPT.pdf" target="_blank"> 點我看最終PPT報告</a>&nbsp;&nbsp;書面報告:<a href="files/Database-Final-Written-Report.pdf" target="_blank">點我看最終書面報告</a>
+              </div>
+              <div class="right7">
+                  <img class="profile-pic" src="image/Database.png" alt="reporting4" />
+              </div>
+              <div class="left8">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/x6u1YpPmm1E?si=nNPXNyLKef-vWs4p"
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  
+              </div>
+              <div class="right8">
+                  數值分析是指在數學分析問題中，對於使用數值近似演算法的研究，誤差是數值分析的重要主題之一，我學到的知識主要都是圍繞著近似方法和誤差值居多。
+                  在我們組的期末分析報告中，主要就是在講關於Centered Differences（中心差分法）其中的一種Stirling's method，它的由來、實際執行例子、和已學到的其他方法做比較。
+                  老師要求每組拍成一段八到十分鐘的影片，回傳給老師，老師會挑出前三組優秀的在最後一堂課上台報告，老師甚至邀請來了其他學校的教授來聆聽報告再給出評價，我們這組有幸被挑選上，需要進行實體報告，是一種特別的體驗。
+                  <br><a href="files/STIRLING PROXIMATION.pdf" target="_blank">點我看最終報告</a>
+              </div>
+              <div class="left9">
+                  財務報表分析這門課，主要是學習如何分析公司給的財務報表，看適合長期投資或是短期投資、有沒有過度舉債或是潛在的財務危機跟各種財務比率分析等等，去評價一間公司財務的狀況。
+                  這門課的老師希望大家的報告不要到最後在做，所以老師每個禮拜上完課後，會給出五個題目讓每組在裡面選取三個進行分析，最後在整合成一個報告，我們組報告中分析的是特斯拉。
+                  報告裡面會介紹著名的安隆醜聞案，特斯拉的CEO是誰、商標、發行的債券、每年的每股盈餘等等，進行一些分析。
+                  <br><a href="https://untitled-eu3xw8j.gamma.site/" target="_blank">點我看最終報告(跳轉至網頁)</a>
+                  
+              </div>
+              <div class="right9">
+                  <img class="profile-pic" src="image/TESLA.png" alt="reporting5" />
+              </div>
+              <div class="left10">
+                  <img class="profile-pic" src="image/Problem-oriented-linear-pic.png" alt="reporting6" />
+                  
+              </div>
+              <div class="right10">
+                  問題導向的數學思考之線性代數，每個小組選擇有興趣的部分要上台報告，我們組是選擇反矩陣和轉置矩陣，其中包含了轉置矩陣的定義和基本性質，
+                  單位矩陣、行列式值、伴隨矩陣跟反矩陣的公式。我們組除了我還有兩個外籍生，這是我第一次跟外籍學生合作做報告，我覺得外籍生最棒的優點是不會怕表達出自己的想法，上台也不會却場，是值得我好好學習的地方。
+                  <br><a href="files/Problem-oriented-linear.pdf" target="_blank">點我看最終報告</a>
+              </div>
+              <div class="left11">
+                  問題導向的數學思考之教國中生微積分，這個分組和線性代數的分組是不一樣的，這個的組員人數更多更需要團隊配合，老師要求我們使用LaTeX做一份報告主題是:「從平面幾何到大學數學」，內容讓每組自由發揮， 在透過充分的討論最後我們選擇講解微分的定義，其中包含了極限、連續、導數等等的介紹。在這份報告中我收穫最大的是我發現我可以當人體翻譯機，因為外籍生跟其他人有一些溝通不順暢，但是我有上一次跟他們合作的經驗所以我可以幫助團隊溝通，讓討論進行得更順利。
+                  <br><a href="files/Problem-oriented-Final.pdf" target="_blank">點我看最終報告</a>
+              </div>
+              <div class="right11">
+                  <img class="profile-pic" src="image/Problem-oriented-1.png" alt="reporting7" />
+              </div>
+            </div>
+
+            <p class="subtitle-2">二.課外活動</p>
+            <div class="container">
+              <div class="left13">
+                這是我偶然間在學校網頁看到的志工活動，當時想說可以去參加看看，因為我自認為還挺有耐心的，有這個機會可以去接觸國小的小孩並且輔導他們功課當然要好好把握。在輔導小朋友的地方其實空間也不大，那裡裡的叔叔對我們幾個志工是很客氣地，但是對小孩子講話有一點點大聲，那個班級裡面人數並不多大概4、5個，一天有兩個志工會去幫忙，一次一個小時，一個禮拜會去一次。經過這次的經歷，讓我知道有些小朋友不專心寫作業其實只是想要有人可以關注他們、想要有人可以陪他們玩。他們都是可愛的小孩，可惜後來他們那個機構好像行政上有一些意外，之後就沒有志工活動了。
+              <a href="image/volunteer.jpg" target="_blank" rel="">查看電子證明</a>
+              </div>
+              <div class="right13">
+                <img class="profile-pic" src="image/volunteer.jpg" alt="" />
+              </div>
+              <div class="left14">
+                曾經在111學年第二學期拿到統計學科優異獎項、112學年第一學期拿到書卷獎，拿到獎項的時候都挺驚訝的，沒想到我在大學時期還可以拿到獎狀。還在112年8月30、31和朋友一起去參加中華民國數學會在台大舉辦的帶專學生數學營，那兩天有很多很厲害的教授或是業界有名的人來分享自己的心路歷程，跟分享數學可以應用到的領域有多廣闊。聽每位教授的精力都覺得超級厲害，希望我也可以變成對社會有用的人。
+              <br><a href="files/math.pdf" target="_blank">點擊我看關於大專數學營證明</a>
+              </div>
+              <div class="right14">
+                <div class="photo-pair">
+                  <img class="profile-pic" src="image/good.jpg" alt="" />
+                  <img class="profile-pic" src="image/statistics.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+        </section>
+        <p class="subtitle" id="interest">推薦影集!!!</p>
+        
+        <section class="left12">
+            <div class="interest-container">
+              <ol>
+                <li>犯罪心理(Disney+)</li>摘自 Disney+ 影集封面
+                <li>潛能探案組(Disney+)</li>摘自 Disney+ 影集封面
+                <li>越獄風雲(Disney+, Netflix)</li>摘自 Disney+ 影集封面
+                <li>住院醫師(Disney+, Netflix)</li>摘自 Disney+ 影集封面
+                <li>混沌少年時(Netflix)</li>摘自 Facebook.com/netflixus
+                <li>暗夜情報員(Netflix)</li>摘自 Facebook.com/netflixus
+                <li>紐約新醫革命(Netflix)</li>摘自: <a href="https://www.myvideo.net.tw/details/3/20091"  target="_blank">點擊前往網頁</a>
+                <li>三人要守密,兩人得死去(Netflix)</li>摘自: <a href="https://mypaper.pchome.com.tw/wyp2221/post/1380611700" target="_blank"> 點擊前往網頁</a>
+              </ol>
+              
+            <aside class="right12">
+              <button class="carousel-btn2" id="prevBtn2">←</button>
+              <img id="carouselImage2" class="show-pic" src="image/Criminal-Minds.jpg" alt="movie scene" />
+              <button class="carousel-btn2" id="nextBtn2">→</button>
+            </aside>
+          </div>
+        </section>
+        <a href="#top" class="back-to-top">點擊回最上面</a>
+    </main>
+    <footer id="contact">
+      <a href="https://line.me/ti/p/0pGRoSn8Ps" target="_blank" title="點擊掃QRcode加LINE！">
+        <img src="image/Line-Logo.png" alt="" class="Social-Media" title="點擊掃QRcode加LINE！">
+      </a>
+      <a href="https://www.facebook.com/share/15whasgHDo/?mibextid=wwXIfr" target="_blank" title="追蹤我 Facebook！">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="" class="Social-Media" title="追蹤我 Facebook！">
+      </a>
+      <a href="https://www.instagram.com/claire__xjx?igsh=MW0wc29mZ2xkYnYzNg%3D%3D&utm_source=qr" target="_blank" title="追蹤IG!">
+        <img src="image/IG-logo.jpg" alt="" class="Social-Media" title="追蹤IG!">
+      </a>
+      <a href="mailto:claire920728@gmail.com"  target="_blank" title="寄Email給我!" >
+        <img src="image/email-logo.webp" alt="Email" class="Social-Media" title="寄Email給我!" >
+      </a>
+      <h4>Copyright © 2025 Chia-Hsuan Hsieh. All rights reserved.</h4>
+    </footer>
+
+    <script>
+    // 圓形進度條動畫
+    const circles = document.querySelectorAll(".circle-wrap");
+    //選取所有類別是 .circle-wrap 的 HTML 元素（每個技能圓形）
+    circles.forEach((wrap) => { //對每個圓形執行一次操作
+      const percent = parseInt(wrap.dataset.percent); //取出百分比
+      const circle = wrap.querySelector(".progress-ring-circle"); //這條線會顯示動畫
+      const total = 2 * Math.PI * 50; // 算出算出圓周長 = 2πr
+      const offset = total * (1 - percent / 100); //計算沒有走完的長度
+
+      circle.style.setProperty("--offset", offset);// 將這個offset值寫入CSS自定義變數
+      circle.style.animation = "progress 2s ease-out forwards"; //開始CSS動畫，播放progress兩秒
+    });
+
+    // 直條進度條動畫
+    const fills = document.querySelectorAll(".progress-bar-fill"); //選取要填滿的地方
+
+    fills.forEach((fill) => {
+      const targetWidth = fill.style.width; //儲存之前社的寬度儲存之前設的寬度
+      fill.style.width = "0%"; // 初始狀態從0開始
+      setTimeout(() => {
+        fill.style.transition = "width 2s ease-out";
+        fill.style.width = targetWidth;
+      }, 100); // 等待0.1秒 再啟動動畫 畫到目標地方
+    });
+
+    // 圖片輪播（按鈕切換圖片）
+    const imagePaths = [   //所有要輪放的照片路徑依序寫好
+      "image/teacher2.jpg",
+      "image/notes1.jpg",
+      "image/students1.jpg"
+    ];
+
+    let currentIndex = 0; //設定從0開始也就是第一張照片
+    const carouselImage = document.getElementById("carouselImage"); //取得圖片和按鈕的id
+    const nextImageBtn = document.getElementById("nextBtn");
+    const prevImageBtn = document.getElementById("prevBtn");
+
+    nextImageBtn.addEventListener("click", () => {  //點選右鍵時，把目前位置加一並更新圖片，如果超過長度的話就會從頭繼續
+      currentIndex = (currentIndex + 1) % imagePaths.length;
+      carouselImage.src = imagePaths[currentIndex]; //把目標的index放入，這樣就可以是想播放的照片路徑
+    });
+
+    prevImageBtn.addEventListener("click", () => { //左鍵和右鍵相同只是加減法不同
+      currentIndex = (currentIndex - 1 + imagePaths.length) % imagePaths.length;
+      carouselImage.src = imagePaths[currentIndex];
+    });
+
+    //重複剛剛的動作只是變數名稱跟id要記得改，圖片路徑也會不同
+    const sceneImagePaths = [  
+      "image/Criminal-Minds.jpg",
+      "image/potential.jpg",
+      "image/Prison-Break.jpg",
+      "image/resident.jpg",
+      "image/adolescence2.jpg",
+      "image/night.jpg",
+      "image/new-amsterdam.jpg",
+      "image/threepeople.jpg"
+    ];
+    let currentSceneIndex = 0;
+    const carouselImage2 = document.getElementById("carouselImage2");
+    const nextSceneImageBtn = document.getElementById("nextBtn2");
+    const prevSceneImageBtn = document.getElementById("prevBtn2");
+
+    nextSceneImageBtn.addEventListener("click", () => {
+      currentSceneIndex = (currentSceneIndex + 1) % sceneImagePaths.length;
+      carouselImage2.src = sceneImagePaths[currentSceneIndex];
+    });
+
+    prevSceneImageBtn.addEventListener("click", () => {
+        currentSceneIndex = (currentSceneIndex - 1 + sceneImagePaths.length) % sceneImagePaths.length;
+        carouselImage2.src = sceneImagePaths[currentSceneIndex];
+    });
+
+    </script>
+  </body>
+</html>
